@@ -41,8 +41,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
- <build>
-  <plugins>
+  <build>
+   <plugins>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
@@ -51,7 +51,7 @@
         <archive>
           <manifest>
             <addClasspath>true</addClasspath>
-            <mainClass>com.java.javaApp.Main</mainClass> <!-- 🛠️ Replace with your actual Main class -->
+            <mainClass>com.java.javaApp.App</mainClass> <!-- ✅ This is your actual main class -->
           </manifest>
         </archive>
       </configuration>
